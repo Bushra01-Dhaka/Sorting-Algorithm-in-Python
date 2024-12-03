@@ -69,7 +69,7 @@ def merge_sort(arr):
         # merge
         i = 0 # to keep track of the left most element of left_arr
         j = 0 # to keep track of the left most element of right_arr
-        k = 0 # to keep track of the left most element of merge_arr
+        k = 0 # to keep track of the merge_arr
         while i < len(left_arr) and j < len(right_arr):
             if left_arr[i] < right_arr[j]:
                 arr[k] = left_arr[i]
